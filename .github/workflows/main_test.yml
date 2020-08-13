@@ -17,7 +17,7 @@ jobs:
       - name: Build DotNET35
         run: |
            cd "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\Bin\"
-           .\MSBuild.exe $Env:GITHUB_WORKSPACE\no_oggy.csproj
+           .\MSBuild.exe $Env:GITHUB_WORKSPACE\Oggy_Remover.csproj
       - name: Verify string-removal from list
         run: D:\a\SayNoOggy\SayNoOggy\Oggy_Remover.csproj
 
